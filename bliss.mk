@@ -14,7 +14,6 @@
 
 # Release name
 PRODUCT_RELEASE_NAME := surnia
-PRODUCT_NAME := bliss_surnia
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 540
@@ -28,7 +27,7 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := surnia
-PRODUCT_NAME := cm_surnia
+PRODUCT_NAME := bliss_surnia
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := surnia
 PRODUCT_MANUFACTURER := motorola
